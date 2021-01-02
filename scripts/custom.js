@@ -1229,14 +1229,15 @@ $(window)['on']('load', function() {
                         _0xdc4bx3e(),
                             $('a')['on']('click', _0xdc4bx40),
                             console['log']('Connection: Offline')
-                    }),
-                    1 == _0xdc4bx2 && (caches['delete']('workbox-runtime')['then'](function() {}),
-                        sessionStorage['clear'](),
-                        caches['keys']()['then']((_0xdc4bx1) => {
-                            _0xdc4bx1['forEach']((_0xdc4bx1) => {
-                                caches['delete'](_0xdc4bx1)
-                            })
-                        }))
+                    })
+                    // }),
+                    // 1 == _0xdc4bx2 && (caches['delete']('workbox-runtime')['then'](function() {}),
+                    //     sessionStorage['clear'](),
+                    //     caches['keys']()['then']((_0xdc4bx1) => {
+                    //         _0xdc4bx1['forEach']((_0xdc4bx1) => {
+                    //             caches['delete'](_0xdc4bx1)
+                    //         })
+                    //     }))
             };
             $('[data-menu-load]')['each'](function() {
                     var _0xdc4bx1 = $(this)['data']('menu-load');
