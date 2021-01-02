@@ -1230,6 +1230,7 @@ $(window)['on']('load', function() {
                             $('a')['on']('click', _0xdc4bx40),
                             console['log']('Connection: Offline')
                     })
+                    // hola
                     // }),
                     // 1 == _0xdc4bx2 && (caches['delete']('workbox-runtime')['then'](function() {}),
                     //     sessionStorage['clear'](),
